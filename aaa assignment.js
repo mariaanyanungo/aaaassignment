@@ -341,5 +341,5 @@ test("adds item to array", () =>{ //Arrange
     //Act
     const result = addItem(arr,[1,2,3] );
     //Assert
-    expect(result).toBe(["water", "liquid" , "ice", "gas",["drop","ocean",1,2,3]]);
+    expect(result).toBe(["water", "liquid" , "ice", "gas",["drop","ocean",[1,2,3]]);
 })
